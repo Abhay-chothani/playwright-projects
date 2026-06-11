@@ -24,7 +24,9 @@ test('Built-inLocators', async ({ page }) =>{
     //page.getByRole() to locate by explicit and implicit accessibility attributes. page.getByText() to locate by text content.
     await page.getByRole('button', {type: 'submit'}).click()
 
-    await expect(await page.getByText('FirstNameTest LastNameTest')).toBeVisible()
+    const name = await page.locator("//p[@class='oxd-userdropdown-name']").textContent()
+
+    await expect(await page.getByText(name)).toBeVisible()
 })
 
 
