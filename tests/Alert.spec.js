@@ -44,6 +44,7 @@ test.skip('Confirmation Dialog-alert with OK and Cancel', async ({ page }) => {
 
 
 test('Prompt Dialog', async ({ page }) => {
+    //test
 
 
     await page.goto("https://the-internet.herokuapp.com/javascript_alerts");
