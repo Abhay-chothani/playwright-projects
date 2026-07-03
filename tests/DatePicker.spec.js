@@ -40,10 +40,14 @@ test("DatePicker", async ({ page }) => {
 
 
     //date selection using loop
-    for (const dt of dates) {
-        if (await dt.textContent() == date) {
-            await dt.click();
-            break;
-        }
-    }
+    // for (const dt of dates) {
+    //     if (await dt.textContent() == date) {
+    //         await dt.click();
+    //         break;
+    //     }
+    // }
+
+    //date selection without loop
+    await page.click(`//a[@class='ui-state-default'][text()='${date}']`)
+
 });
