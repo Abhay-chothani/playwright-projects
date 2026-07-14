@@ -18,6 +18,7 @@ test("Handle multiselectdropdown", async ({ page }) => {
 
     //3) check presence of value in the dropdown
     const content = await page.locator("#colors").textContent()
-    await expect(content.includes('Black')).toBeTruthy();
+    //await expect(content.includes('Black')).toBeFalsy();
+    await expect(content.includes('Blue')).toBeTruthy();
     await page.waitForTimeout(5000);
 })
