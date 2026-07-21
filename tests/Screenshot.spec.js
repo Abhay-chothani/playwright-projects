@@ -11,9 +11,15 @@ test('Full Page Screenshot', async ({ page }) => {
     await page.screenshot({path:'tests/Screenshots/FullPage.png',fullPage:true})
 })
 
-test.only('Element Screenshot', async ({ page }) => {
+test('Element Screenshot', async ({ page }) => {
     await page.goto("https://gymnation.com/en-ae");
     await page.locator("(//div[@class='owl-item active'])[3]").screenshot({path:'tests/Screenshots/GymInDubai.png'})
 
-
 })
+
+
+// test.only('Element Screenshot', async ({ page }) => {
+//     await page.goto("https://gymnation.com/en-ae");
+//     await page.locator("(//div[@class='owl-item active'])[3]").screenshot({path:'tests/Screenshots/GymInDubai.png'})
+
+// })
