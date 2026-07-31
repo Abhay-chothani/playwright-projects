@@ -8,7 +8,7 @@ exports.CartPage =
 
         async checkProductInCart(productName){
             const ProductInCart = await this.page.$$(this.noOfProducts)
-            for(const product in ProductInCart){
+            for(const product of ProductInCart){
                 console.log(await product.textContent())
                 if(productName === await product.textContent())
                 {
