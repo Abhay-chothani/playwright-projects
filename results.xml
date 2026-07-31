@@ -1,0 +1,107 @@
+<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="33.245846">
+<testsuite name="Reporters.spec.js" timestamp="2026-07-31T12:11:49.360Z" hostname="chromium" tests="3" failures="0" skipped="0" time="14.538" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="2.921">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test1-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="9.671">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test2-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test2-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="1.946">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test3-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test3-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2026-07-31T12:11:49.360Z" hostname="firefox" tests="3" failures="0" skipped="0" time="17.274" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="5.602">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test1-firefox\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="7.499">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test2-firefox\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test2-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test2-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="4.173">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test3-firefox\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test3-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test3-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2026-07-31T12:11:49.360Z" hostname="webkit" tests="3" failures="0" skipped="0" time="14.932" errors="0">
+<testcase name="Test1" classname="Reporters.spec.js" time="4.529">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test1-webkit\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-webkit\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test1-webkit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="Reporters.spec.js" time="7.157">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test2-webkit\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test2-webkit\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test2-webkit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test3" classname="Reporters.spec.js" time="3.246">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Reporters-Test3-webkit\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Reporters-Test3-webkit\video.webm]]
+
+[[ATTACHMENT|test-results\Reporters-Test3-webkit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -2,27 +2,26 @@ exports.HomePage =
     class HomePage {
         constructor(page) {
             this.page = page;
-            this.prodctList = '//*[@id="tbodyid"]/div/div/div/h4/a';
+            this.productList = '//*[@id="tbodyid"]/div/div/div/h4/a';
             this.addToCartbtn = '//a[normalize-space()="Add to cart"]';
             this.cart = '#cartur';
         }
 
-        async addProductToCart(productName) {
+        async addProductToCartbtn(productName) {
             const productList = await this.page.$$(this.productList);
-            for(const product of productList){
-                if(productName === await product.textContent()){
+            for (const product of productList) {
+                if (productName === await product.textContent()) {
                     await product.click();
-                    break; 
-                }
-                await this.page.on('dialog', async dialog=>{
-                    if(dialog.message().includes('added')){
+                    this.page.once('dialog', async dialog => {
                         await dialog.accept();
-                    }
-                })
-                await this.page.locator(this.addProductToCart).click();
+                    });
+                    await this.page.locator(this.addToCartbtn).click();
+                    break;
+                }
+
             }
         }
-        async gotocart(){
+        async gotoCart() {
             await this.page.locator(this.cart).click();
         }
 

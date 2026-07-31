@@ -25,9 +25,9 @@ test('POM Test', async ({ page }) => {
 
     //Home
     const home = new HomePage(page)
-    await home.addProductToCart("Nexus 6")
+    await home.addProductToCartbtn("Nexus 6")
     await page.waitForTimeout(3000);
-    await home.gotocart();
+    await home.gotoCart();
 
     //Cart
     const cart = new  CartPage(page)
